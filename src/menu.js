@@ -5,8 +5,11 @@ export default function menu(){
 
   const container = document.querySelector("#content");
 
+  const menuSelected = document.querySelector('#menu')
+  menuSelected.classList.add('nav-item-selected'); 
+
   const menuContainer = document.createElement('div');
-  menuContainer.classList.add('menu-container');
+  menuContainer.classList.add('nav-item-container');
 
   const h1 = document.createElement('h1');
   h1.innerHTML = 'Our pizzas';
