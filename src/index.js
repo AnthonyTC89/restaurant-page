@@ -1,7 +1,7 @@
 import nav from './nav.js';
 import menu from './menu.js';
 import home from './home.js';
-import contact from './contact.js';
+import comment from './comment.js';
 import './style.css';
 
 console.log("Hello World")
@@ -26,8 +26,8 @@ document.querySelectorAll(".nav-item").forEach(
             case 'menu':
                 menu();
             break;
-            case 'contact':
-                contact();
+            case 'comment':
+              comment();
             break;
         }
       })
