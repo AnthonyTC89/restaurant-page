@@ -1,13 +1,12 @@
-export default function contact(){
-  //const workingHours = ['Monday - Sunday: 12:30m - 9pm'];
-  const container = document.querySelector("#content");
+export default function contact() {
+  const container = document.querySelector('#content');
 
   const contactContainer = document.createElement('div');
-  contactContainer.classList.add('nav-item-container');    
-  
+  contactContainer.classList.add('nav-item-container');
+
   const contactSelected = document.querySelector('#comment');
-  contactSelected.classList.add('nav-item-selected'); 
-  
+  contactSelected.classList.add('nav-item-selected');
+
   const h1 = document.createElement('h1');
   h1.innerHTML = 'Comment Us';
 
@@ -25,7 +24,7 @@ export default function contact(){
 
   inputEmail.type = 'email';
   inputEmail.name = 'email';
-  inputEmail.placeholder = 'e.g. foo@bar.com'
+  inputEmail.placeholder = 'e.g. foo@bar.com';
 
   const inputTextArea = document.createElement('textarea');
   inputTextArea.name = 'comment';
@@ -36,11 +35,12 @@ export default function contact(){
   inputSubmit.name = 'submit';
   inputSubmit.type = 'submit';
   inputSubmit.value = 'Submit';
-  inputSubmit.href
   inputSubmit.addEventListener('click', () => {
     inputEmail.value = '';
     inputTextArea.value = '';
-    location.href = "#";
+    // eslint-disable-next-line no-restricted-globals
+    location.href = '#';
+    // eslint-disable-next-line no-alert
     window.alert('Thank you for your comment!');
   });
 
