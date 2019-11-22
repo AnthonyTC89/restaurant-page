@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'MyFont';
-  src:  url('./LeckerliOne-Regular.ttf') format('truetype');
+  src:  url('/src/fonts/LeckerliOne-Regular.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
