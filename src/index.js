@@ -2,7 +2,7 @@ import nav from './nav';
 import menu from './menu';
 import home from './home';
 import comment from './comment';
-import './style.css';
+import './styles/style.css';
 
 nav();
 home();
