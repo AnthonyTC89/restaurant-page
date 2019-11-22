@@ -36,6 +36,26 @@ nav {
   padding: 0;
 }
 
+.nav-item {
+  padding: 1em;
+  color: #2d2d2d;
+}
+
+.nav-item-selected{
+  background-color: white;
+}
+
+.nav-item:hover{
+  background-color: white;
+  cursor: pointer;
+}
+
+.nav-item-container {
+  padding: 2em;
+  text-align: center;
+  color: #2d2d2d;
+}
+
 .product-item{
   display: inline-block;
   background-color: green;
@@ -67,26 +87,6 @@ nav {
   display: block;
   width: 300px;
   text-align: center;
-}
-
-.nav-item {
-  padding: 1em;
-  color: #2d2d2d;
-}
-
-.nav-item-selected{
-  background-color: white;
-}
-
-.nav-item:hover{
-  background-color: white;
-  cursor: pointer;
-}
-
-.nav-item-container {
-  padding: 2em;
-  text-align: center;
-  color: #2d2d2d;
 }
 
 .home-img {
