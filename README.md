@@ -6,6 +6,8 @@ DOM manipulation - dynamically rendering a simple restaurant homepage in JavaScr
 
 More details: https://www.theodinproject.com/courses/javascript/lessons/restaurant-page
 
+Live Version: https://anthonytc89.github.io/restaurant-page/
+
 ### Built With
 
 * HTML
