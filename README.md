@@ -1,38 +1,45 @@
-# JavaScript Restaurant Page
+<p align="center">
+  <h1 align="center">SIMPLE RESTAURANT HOME PAGE</h1>
 
+  <p align="center">
+    Project Create with Javascript
+    <br>
+    <br>
+    <a href="https://anthonytc89.github.io/restaurant-page" target="_blank">Live Demo</a>
+    .
+    <a href="https://github.com/AnthonyTC89/restaurant-page/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/AnthonyTC89/restaurant-page/issues">Request Feature</a>
+  </p>
+  <br>
+</p>
+
+![Screenshot](/screenshots/01.png)
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+* [Built With](#built-with)
+* [Installation](#installation)
+* [Contact](#Contact)
+
+<!-- ABOUT THE PROJECT -->
 ## About The Project
 
-DOM manipulation - dynamically rendering a simple restaurant homepage in JavaScript. 
-
-More details: https://www.theodinproject.com/courses/javascript/lessons/restaurant-page
+This project is part of the course [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page). The goal of the project is learn about DOM manipulation - dynamically rendering a simple restaurant homepage with JavaScript. 
 
 ### Built With
-
-* HTML
-* CSS
-* JavaScript
-
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
+* [HTML](https://www.w3.org/html/)
+* [CSS](https://www.w3.org/Style/CSS/)
+* [Bootstrap](https://getbootstrap.com/)
+* [JavaScript](https://www.javascript.com/)
 
 ### Installation
- 
-1. Clone the repo `https://github.com/AnthonyTC89/restaurant-page`
-2. Run `npm install webpack webpack-cli style-loader css-loader file-loader --save-dev`
-2. Open the file 'dist/index.html' in a browser.
+  1. Clone the repository [restaurant-page](https://github.com/AnthonyTC89/restaurant-page)
+  2. Run `npm install`
+  3. Open the file 'dist/index.html' in a browser.
 
-## Authors
+### Contact
 
-* [Anthony Tapia](https://github.com/AnthonyTC89)
-
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+* **[Anthony Tapia Cossio](https://github.com/AnthonyTC89) - [Linkedin](linkedin.com/in/anthony-tapia-cossio) - [Twitter](https://twitter.com/ptonypTC) - [Portfolio](https://portfolio-anthony.herokuapp.com/)**
